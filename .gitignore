@@ -1,0 +1,6 @@
+# Ignore the binary files and object files generated 
+*.exe
+*.out
+*.o
+*.obj
+.vscode/
