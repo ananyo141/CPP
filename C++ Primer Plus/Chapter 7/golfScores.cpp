@@ -33,6 +33,7 @@ int getScores(int scoreArray[], int size) {
             return i;
         }
     }
+    return size;
 }
 
 void showScores(int scoreArray[], int size) {
