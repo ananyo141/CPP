@@ -39,11 +39,11 @@ int main() {
 }
 
 void displayBox(Box box) {
-    std::cout << "Box maker: "  << box.maker
+    std::cout << "Box maker: "    << box.maker
               << "\nBox height: " << box.height
               << "\nBox width: "  << box.width
               << "\nBox length: " << box.length
-              << "\nBox volume: " << box.volume;
+              << "\nBox volume: " << box.volume << std::endl;
 }
 
 void setVolume(Box *box) {

@@ -18,7 +18,7 @@ const int MAXLEN = 5;
 
 // prototypes //
 int fill_array(double array[], int maxlen);
-void show_array(double array[], int size);
+void show_array(const double array[], int size);
 void reverse_array(double array[], int size);
 
 int main() {
@@ -53,7 +53,7 @@ int fill_array(double array[], int maxlen) {
     return maxlen;
 }
 
-void show_array(double array[], int size) {
+void show_array(const double array[], int size) {
     /* Print out the given array sequentially */
     for (int i = 0; i < size; i++)
         std::cout << ' ' << array[i];
@@ -63,7 +63,7 @@ void show_array(double array[], int size) {
 void reverse_array(double array[], int size) {
     /* Reverse the array */
     double temp;
-    for (int i = 0; i < size && i <= size/2; i++) {
+    for (int i = 0; i < size && i < size/2; i++) {
         temp = array[i];
         array[i] = array[size-i-1];
         array[size-i-1] = temp;

@@ -11,8 +11,8 @@ const int SCORE_LIM = 10;
 
 // prototypes //
 int getScores(int scoreArray[], int size);
-void showScores(int scoreArray[], int size);
-double averageScore(int scoreArray[], int size);
+void showScores(const int scoreArray[], int size);
+double averageScore(const int scoreArray[], int size);
 
 int main() {
     int scores[SCORE_LIM];
@@ -36,14 +36,14 @@ int getScores(int scoreArray[], int size) {
     return size;
 }
 
-void showScores(int scoreArray[], int size) {
+void showScores(const int scoreArray[], int size) {
     std::cout << "Scores: ";
     for (int i = 0; i < size; i++)
         std::cout << scoreArray[i] << ' ';
     std::cout << std::endl;
 }
 
-double averageScore(int scoreArray[], int size) {
+double averageScore(const int scoreArray[], int size) {
     double total = 0;
     for (int i = 0; i < size; i++)
         total += scoreArray[i];
