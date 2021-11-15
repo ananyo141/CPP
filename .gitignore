@@ -2,5 +2,7 @@
 *.exe
 *.out
 *.o
+*.h.gch
 *.obj
 .vscode/
+
