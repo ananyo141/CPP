@@ -1,0 +1,94 @@
+Target Distance: 3, Step Size: 3
+
+0:(X,Y): (0, 0)
+
+*************** Summary ********************
+
+After 1 steps, the subject has the following location:
+(X,Y): (0.725766, -2.91089)
+or
+(Mag,Angle): (3, -76)
+Average outward distance per step: = 3
+--------------------------------------------
+
+Target Distance: 3, Step Size: 3
+
+0:(X,Y): (0, 0)
+1:(X,Y): (2.29813, -1.92836)
+
+*************** Summary ********************
+
+After 2 steps, the subject has the following location:
+(X,Y): (5.29083, -2.13763)
+or
+(Mag,Angle): (5.70634, -22)
+Average outward distance per step: = 2.85317
+--------------------------------------------
+
+Target Distance: 3, Step Size: 3
+
+0:(X,Y): (0, 0)
+1:(X,Y): (2.29813, -1.92836)
+
+*************** Summary ********************
+
+After 2 steps, the subject has the following location:
+(X,Y): (5.29083, -2.13763)
+or
+(Mag,Angle): (5.70634, -22)
+Average outward distance per step: = 2.85317
+--------------------------------------------
+
+Target Distance: 3, Step Size: 3
+
+0:(X,Y): (0, 0)
+
+*************** Summary ********************
+
+After 1 steps, the subject has the following location:
+(X,Y): (2.26413, -1.96818)
+or
+(Mag,Angle): (3, -41)
+Average outward distance per step: = 3
+--------------------------------------------
+
+Target Distance: 3, Step Size: 3
+
+0:(X,Y): (0, 0)
+
+*************** Summary ********************
+
+After 1 steps, the subject has the following location:
+(X,Y): (2.83656, -0.976704)
+or
+(Mag,Angle): (3, -19)
+Average outward distance per step: = 3
+--------------------------------------------
+
+Target Distance: 3, Step Size: 3
+
+0:(X,Y): (0, 0)
+1:(X,Y): (-1.12382, -2.78155)
+
+*************** Summary ********************
+
+After 2 steps, the subject has the following location:
+(X,Y): (1.85975, -3.09514)
+or
+(Mag,Angle): (3.61089, -59)
+Average outward distance per step: = 1.80545
+--------------------------------------------
+
+Target Distance: 3, Step Size: 3
+
+0:(X,Y): (0, 0)
+
+*************** Summary ********************
+
+After 1 steps, the subject has the following location:
+(X,Y): (-1.92836, 2.29813)
+or
+(Mag,Angle): (3, 130)
+Average outward distance per step: = 3
+--------------------------------------------
+
