@@ -1,5 +1,6 @@
 #ifndef STOCK_H_
 #define STOCK_H_
+#include <iostream>
 
 class Stock {
 private:
