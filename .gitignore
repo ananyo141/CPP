@@ -3,6 +3,8 @@
 *.out
 *.o
 *.h.gch
+*.hpp.gch
+*.swp
 *.obj
 .vscode/
 
