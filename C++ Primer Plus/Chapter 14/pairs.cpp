@@ -1,31 +1,10 @@
 // A container class that holds two generic values
 
 #include <iostream>
-
-namespace {
-    template <typename T1, typename T2>
-    class Pairs {
-    private:
-        T1 a_;
-        T2 b_;
-    public:
-        Pairs(const T1 &first, const T2 &second);
-        T1 & first();
-        T2 & second();
-    };
-
-    template <typename T1, typename T2>
-    Pairs<T1, T2>::Pairs(const T1 &first, const T2 &second)
-        : a_(first), b_(second)  { }
-
-    template <typename T1, typename T2>
-    T1 & Pairs<T1, T2>::first () { return a_; }
-
-    template <typename T1, typename T2>
-    T2 & Pairs<T1, T2>::second() { return b_; }
-}
+#include "pairs.hpp"
 
 int main() {
+    using pairs::Pairs;
     using rating_t = Pairs<std::string, int>;
     rating_t ratingDB[] = {
         rating_t("The Purpled Duck", 5),
