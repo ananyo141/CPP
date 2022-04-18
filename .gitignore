@@ -6,5 +6,8 @@
 *.hpp.gch
 *.swp
 *.obj
+
+# Editor files
 .vscode/
+*.vim
 
